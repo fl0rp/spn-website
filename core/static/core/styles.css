@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color:#321700;
+    background-color: #000;
     color:white;
     font-family: Verdana, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
     font-size:16pt;
@@ -24,10 +24,10 @@ a {
 }
 
 ul.nav {
-    background-color:#613600;
     text-align: center;
     padding: 4px 0;
     margin:0;
+    border-bottom: 3px solid #0084b0;
 }
 
 ul.nav li {
@@ -40,17 +40,30 @@ ul.nav li a {
     padding: 4px 10px 10px 10px;
 }
 
-ul.nav li a, .footer a {
-    color:white;
+
+li:nth-child(1) a {color: rgb(0,134,170)}
+li:nth-child(2) a {color: rgb(0,136,163)}
+li:nth-child(3) a {color: rgb(0,139,157)}
+li:nth-child(4) a {color: rgb(0,141,150)}
+li:nth-child(5) a {color: rgb(0,143,144)}
+li:nth-child(6) a {color: rgb(0,145,137)}
+li:nth-child(7) a {color: rgb(0,148,131)}
+li:nth-child(8) a {color: rgb(0,150,125)}
+li:nth-child(9) a {color: rgb(0,152,118)}
+li:nth-child(10) a {color: rgb(0,154,112)}
+li:nth-child(11) a {color: rgb(0,156,105)}
+li:nth-child(12) a {color: rgb(0,159,99)}
+
+ul.nav li a,
+.footer a {
     text-decoration: none;
 }
 
-ul.nav li:hover {
-    background-color: #804600;
+ul.nav li:hover a {
+    color: white;
 }
 
 ul.sub.nav {
-    background-color: #492903;
     left: 50%;
     margin-top: 6px;
     position: relative;
@@ -83,7 +96,7 @@ div.footer {
     bottom:0;
     width:100%;
     padding:3px;
-    background-color:#613600;
+    border-top: 3px solid #0084b0;
 }
 
 #snake
